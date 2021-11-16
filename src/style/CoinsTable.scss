@@ -1,0 +1,42 @@
+.container{
+    text-align: center;
+}
+
+.h3-mkt-cap{
+    color:#fff;
+    font-size: 3rem;
+    font-weight: 300;
+    font-family: 'Roboto',sans-serif;
+    margin: 10px 0 20px 0;
+    
+
+}
+.crypto-input{
+    width: 50%;
+    padding: 1rem;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius:8px;
+    transition: all .3s ease-in;
+    &:focus{
+        outline: none;
+        width: 60%;
+    }
+}
+
+.loading{
+    border: 3px solid hsla(185, 100%, 62%, 0.2);
+    border-top-color: #3cefff;
+    border-radius: 50%;
+    width: 3em;
+    height: 3em;
+    animation: spin 1s linear infinite;
+    
+    @keyframes spin {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+  }
+  
